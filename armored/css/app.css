@@ -1,0 +1,27 @@
+.button{
+    background-color: yellow;
+}
+
+body{
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+$white: #fefefe;
+
+/* Demo Styles */
+body {
+  padding: 2rem 1rem;
+}
+
+.docs-example-orbit-slide {
+  padding: 2rem 4rem;
+  color: $white;
+  margin-top: 100px;
+}
+
+
+

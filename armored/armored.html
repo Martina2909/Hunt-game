@@ -1,0 +1,127 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armored</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+      body{
+        background-image: url(css/armored.jpg);
+      }
+      .docs-example-orbit-slide{
+        background-color: rgba(61, 61, 61, 0.479);
+        color: white;
+        text-align: center;
+      }
+      .orbit-previous{
+        margin-top: 40px;
+      }
+      .orbit-next{
+        margin-top: 40px;
+      }
+      .menu{
+        background-color: rgba(42, 43, 44, 0.589);
+        padding-top: 10px auto;
+        padding-bottom: 10px auto;
+        
+      }
+    </style>
+  </head>
+<body>
+  <!--Background image URL: https://pbs.twimg.com/media/Dbzf-lkW0AAARid.jpg-->
+
+
+  <ul class="dropdown menu" data-dropdown-menu>
+    <li><a href="../index.html" style="color: white; font-size: 2rem;"><b>Home</b></a></li>
+    <li>
+      <a style="color: white; margin-top: 10px;">Bosses</a>
+      <ul class="menu">
+        <li><a href="../assassin/assassin.html" style="color: white;">Assassin</a></li>
+        <li><a href="../butcher/butcher.html" style="color: white;">Butcher</a></li>
+        <li><a href="../spider/spider.html" style="color: white;">Spider</a></li>
+        <li><a href="../scrapbeak/scrapbeak.html" style="color: white;">Scrapbeak</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#0" style="color: white; margin-top: 10px;">Monsters</a>
+      <ul class="menu">
+        <li>
+          <a href='#0' style="color: white;"> Infected</a>
+          <ul class="menu">
+            <li><a href="../grunt/grunt.html" style="color: white;">Grunt</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href='#0' style="color: white;"> Marked</a>
+          <ul class="menu">
+            <li><a href="#0" style="color: white;">Armored</a></li>
+            <li><a href="../hive/hive.html" style="color: white;">The Hive</a></li>
+            <li><a href="../immolator/immolator.html" style="color: white;">Immolator</a></li>
+            <li><a href="../meathead/meathead.html" style="color: white;">Meathead</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href='#0' style="color: white;"> Packs</a>
+          <ul class="menu">
+            <li><a href="../hellhounds/hellhounds.html" style="color: white;">Hellhounds</a></li>
+            <li><a href="../waterdevils/waterdevils.html" style="color: white;">Water Devil</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="https://www.huntshowdown.com/" target="_blank" style="color: white; margin-top: 10px;">More Info</a></li>
+  </ul>
+
+
+
+
+  <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
+    <ul class="orbit-container">
+      <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+      <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+      <li class="is-active orbit-slide">
+        <div class="docs-example-orbit-slide">
+          <p> <strong>STORY:</strong> <br> They got their name by plates growing out from their body, which serves the purpose as an armor.</p>
+        </div>
+      </li>
+      <li class="orbit-slide">
+        <div class="docs-example-orbit-slide">
+          <p>Armored can deal heavy damage if allowed into melee range, but it is safe for a player to shoot from the distance.</p>
+        </div>
+      </li>
+      <li class="orbit-slide">
+        <div class="docs-example-orbit-slide">
+          <p>Armored are vulnerable to fire damage and will die in seconds if ignited.</p>
+        </div>
+      </li>
+      <li class="orbit-slide">
+        <div class="docs-example-orbit-slide">
+          <p>Armored are resistant to body shots, so the best way to take them down is in a stealthy way with a knife or an axe.</p>
+        </div>
+      </li>
+    </ul>
+    <nav class="orbit-bullets">
+      <button class="is-active" data-slide="0">
+        <span class="show-for-sr">First slide details.</span>
+        <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+      </button>
+      <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+      <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+      <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+    </nav>
+  </div>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
